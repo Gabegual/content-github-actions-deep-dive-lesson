@@ -7,7 +7,7 @@ on:
       
 jobs:
   build: 
-    runs-on: wsl-latest
+    runs-on: wsl
     steps:
     - name: Check out code
       uses: actions/checkout@v2
